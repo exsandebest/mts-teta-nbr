@@ -92,7 +92,9 @@ Cредний интервал между покупками всех польз
 ### Запуск
 ```bash
 git clone https://github.com/sokolcom/mts-teta-nbr.git
-cd mts-teta-nbr/demo
+cd mts-teta-nbr/data
+unzip users_as_vectors.zip
+cd ../demo
 streamlit run main.py
 ```
 

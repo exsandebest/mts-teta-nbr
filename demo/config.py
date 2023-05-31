@@ -25,7 +25,7 @@ purchase_data = "../data/main.csv"
 # предобработанный датасет для tifu knn (!!! находится в архиве -> распаковать !!!)
 users_as_vectors = "../data/users_as_vectors.pkl"
 
-REPO_LINK = "https://github.com/sokolcom/mts-teta-nbr"
+REPO_LINK = "https://github.com/exsandebest/mts-teta-nbr"
 
 HTML_CREDITS = \
     """[<img src='data:image/png;base64,{0}' class='img-fluid' width=25 height=25>]({1}) <small> Demo stand | Team 42 </small>""" \
@@ -35,7 +35,7 @@ HTML_CREDITS = \
 # Stubs
 DATA_PATH = "../data/apriori_top_20.csv"
 RAND_IMAGE = "https://picsum.photos/200/300"
-DESCRIPTION = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+DESCRIPTION = "Next basket recomendation model"
 
 # отдельно заданы средние метрики на валидации для базового алгоритма - popular и доп. алгоритмов (сейчас только tifu)
 # все алгоритмы сравниваются с базой:
