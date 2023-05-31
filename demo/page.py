@@ -32,10 +32,6 @@ def render_sidebar():
     st.sidebar.markdown("### Next Basket Recommendation")
     st.sidebar.markdown("---")
 
-    with st.sidebar.expander("About"):
-        st.markdown(cfg.DESCRIPTION)
-    st.sidebar.markdown("---")
-
     model_type, model = pick_model()
         
     st.sidebar.markdown("---")
