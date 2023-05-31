@@ -25,7 +25,7 @@ purchase_data = "../data/main.csv"
 # предобработанный датасет для tifu knn (!!! находится в архиве -> распаковать !!!)
 users_as_vectors = "../data/users_as_vectors.pkl"
 
-REPO_LINK = "https://github.com/exsandebest/mts-teta-nbr"
+REPO_LINK = "https://github.com/exsandebest/next-basket-recommendation"
 
 HTML_CREDITS = \
     """[<img src='data:image/png;base64,{0}' class='img-fluid' width=25 height=25>]({1}) <small> Demo stand | Team 42 </small>""" \

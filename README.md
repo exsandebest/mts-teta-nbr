@@ -91,7 +91,7 @@ Cредний интервал между покупками всех польз
 
 ### Запуск
 ```bash
-git clone https://github.com/exsandebest/mts-teta-nbr.git
+git clone https://github.com/exsandebest/next-basket-recommendation.git
 cd mts-teta-nbr/data
 unzip users_as_vectors.zip
 cd ../demo
